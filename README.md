@@ -9,5 +9,4 @@ Instruction
 4. Install the app apk on Samsung devices
 5. Press Convert now and check out the result on convert folder on storage
 
-Credits to dgadelha @xda
-https://forum.xda-developers.com/showpost.php?p=77683386&postcount=105
+Credits to the original poster (dgadelha) @<a href="https://forum.xda-developers.com/showpost.php?p=77683386&postcount=105">xda</a>
