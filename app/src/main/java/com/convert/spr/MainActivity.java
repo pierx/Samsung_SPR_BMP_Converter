@@ -19,6 +19,7 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.lang.reflect.Field;
+import java.util.Objects;
 
 public class MainActivity extends Activity {
     Button button;
@@ -80,7 +81,7 @@ public class MainActivity extends Activity {
             fos.close();
 
         } catch (IOException e) {
-            Log.e("app", e.getMessage());
+            Log.e("app", Objects.requireNonNull(e.getMessage()));
             if (fos != null) {
                 try {
                     fos.close();
